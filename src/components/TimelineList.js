@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const TimelineList = () => {
     const [posts, setPost] = useState([]);
     const [order, setOrder] = useState("ASC");
-    const [field, setField] = useState("createdAt");
+    const [field, setField] = useState("\"createdAt\"");
 
     useEffect(() => {
         getPosts();
