@@ -29,6 +29,11 @@ const UserList = () => {
         <Link to={`add`} className="button is-success">
           Add New
         </Link>
+        &nbsp;
+        <Link to={`timeline`} className="button is-success">
+          Timeline
+        </Link>
+        
         <table className="table is-striped is-fullwidth">
           <thead>
             <tr>
